@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Eternals | Steps</title>
+        <link rel="icon" href="images/favicon.png" />
+        <!--CSS Files -->
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+        />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/owl.carousel.min.css" />
+        <link rel="stylesheet" href="css/animate.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/color.css" />
+        <link rel="stylesheet" href="css/media.css" />
+        <link rel="stylesheet" href="css/steps.css" />
+        <style>
+            body {
+                padding: 80px 0 0;
+            }
+        </style>
+    </head>
+    <body class="p-0">
+        <!-- Loader -->
+        <div id="preloader"></div>
+        <!-- /Loader -->
+        <div class="stepbg_cont step1_bg"></div>
+        <div
+            class="steps_form step1_bg d-flex flex-column justify-content-center w-100 h-100 p-0"
+        >
+            <div class="container">
+                <div id="wizard" class="p-3 p-md-4 p-lg-5 position-relative">
+                    <a href="#!" class="btn_close_step"
+                        ><img src="images/close.svg" class="img-fluid"
+                    /></a>
+                    <div class="tab-content">
+                        <!-- STEP 1 OPEN-->
+                        <div role="tabpanel" class="tab-pane active" id="step1">
+                            <div class="progress">
+                                <ul>
+                                    <li>
+                                        <a class="text-white" href="#!"
+                                            >Shape</a
+                                        >
+                                    </li>
+                                    <li><a class="" href="#!">Size</a></li>
+                                    <li><a class="" href="#!">Options</a></li>
+                                    <li><a class="" href="#!">Setting</a></li>
+                                </ul>
+                                <div
+                                    class="progress-bar1 d-block"
+                                    id="back_step1"
+                                    role="progressbar"
+                                    aria-valuenow="40"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                                ></div>
+                            </div>
+                            <!-- Step content -->
+                            <div
+                                class="wzd-content d-flex flex-column justify-content-center"
+                            >
+                                <div class="step_title step_title_1 fade_in">
+                                    Which shape is your favorite?
+                                </div>
+                                <!-- Slider -->
+                                <div id="designStudio" class="owl-carousel">
+                                    <div class="item text-center">
+                                        <img
+                                            src="images/step_img2.png"
+                                            id="round"
+                                            class="img-fluid m-auto"
+                                            alt="Round Shape"
+                                            onclick="selectShape('round')"
+                                        />
+                                        <p class="my-4">Round</p>
+                                    </div>
+
+                                    <!-- /Items 1-->
+
+                                    <div class="item text-center">
+                                        <img
+                                            src="images/step_img1.png"
+                                            id="rectangle"
+                                            class="img-fluid m-auto"
+                                            alt="Rectangle Shape"
+                                            onclick="selectShape('rectangle')"
+                                        />
+                                        <p class="my-4">Rectangle</p>
+                                    </div>
+                                    <!-- /Items 2-->
+                                    <div class="item text-center">
+                                        <img
+                                            src="images/step_img3.png"
+                                            id="curved"
+                                            class="img-fluid m-auto"
+                                            alt="Curved Shape"
+                                            onclick="selectShape('curved')"
+                                        />
+                                        <p class="my-4">Curved</p>
+                                    </div>
+                                    <!-- /Items 3-->
+                                    <!-- <div class="item text-center">
+                                        <img
+                                            src="images/step_img1.png"
+                                            class="img-fluid m-auto"
+                                        />
+                                        <p class="my-4">Rectangle</p>
+                                    </div> -->
+                                    <!-- /Items 1-->
+                                    <!-- <div class="item text-center">
+                                        <img
+                                            src="images/step_img2.png"
+                                            class="img-fluid m-auto"
+                                        />
+                                        <p class="my-4">Round</p>
+                                    </div> -->
+                                    <!-- /Items 2-->
+                                    <!-- <div class="item text-center">
+                                        <img
+                                            src="images/step_img3.png"
+                                            class="img-fluid m-auto"
+                                        />
+                                        <p class="my-4">Curved</p>
+                                    </div> -->
+                                    <!-- /Items 3-->
+                                </div>
+                                <!-- /Slider -->
+                            </div>
+                            <div class="wzd-nav">
+                                <div id="nav-controls">
+                                    <div class="row">
+                                        <div class="col-sm-4 mb-2 text-left">
+                                            &nbsp;
+                                        </div>
+                                        <div class="col-sm-4 text-center">
+                                            <a
+                                                class="btn btn_blue_purple nav-next"
+                                                href="#step2"
+                                                aria-controls="step2"
+                                                role="tab"
+                                                data-toggle="tab"
+                                                >Continue</a
+                                            >
+                                        </div>
+                                        <div
+                                            class="col-sm-4 d-none d-sm-block text-right"
+                                        >
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Step content end-->
+                        </div>
+                        <!-- STEP 1 END -->
+
+                        <!-- STEP 2 OPEN -->
+                        <div role="tabpanel" class="tab-pane" id="step2">
+                            <div class="progress">
+                                <ul>
+                                    <li>
+                                        <a class="text-white" href="#!"
+                                            >Shape</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="text-white" href="#!">Size</a>
+                                    </li>
+                                    <li><a class="" href="#!">Options</a></li>
+                                    <li><a class="" href="#!">Setting</a></li>
+                                </ul>
+                                <div
+                                    class="progress-bar2 d-block"
+                                    id="back_step2"
+                                    role="progressbar"
+                                    aria-valuenow="40"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                                ></div>
+                            </div>
+                            <!-- Step content -->
+                            <div
+                                class="wzd-content d-flex flex-column justify-content-center"
+                            >
+                                <div class="step_title step_title_2 fade_in">
+                                    Choose your ideal size
+                                </div>
+                                <div
+                                    class="row d-flex justify-content-center align-items-center"
+                                >
+                                    <div
+                                        class="col-xl-2 col-lg-2 col-md-3 col-sm-4 col-7 text-right mb-4"
+                                    >
+                                        <img
+                                            src="images/step_img2.png"
+                                            class="img-fluid m-auto"
+                                            id="img_shape"
+                                            alt="Round Shape"
+                                        />
+                                    </div>
+                                    <div
+                                        class="col-xl-1 col-lg-1 col-md-1 col-sm-2 col-5 py-5 mb-4 border_left_caret_size"
+                                        id="caret_size"
+                                    >
+                                        1 Carat
+                                    </div>
+                                    <div
+                                        class="col-xl-3 col-lg-4 col-md-4 col-sm-6 ring_weight"
+                                    >
+                                        <div class="row">
+                                            <div
+                                                class="col-6 mb-3 text-center pr-1"
+                                            >
+                                                <div
+                                                    class="custom-control custom-radio"
+                                                >
+                                                    <input
+                                                        type="radio"
+                                                        id="customRadio1"
+                                                        name="customRadio"
+                                                        class="custom-control-input"
+                                                        checked
+                                                    />
+                                                    <label
+                                                        class="custom-control-label"
+                                                        onclick="selectCarat('1')"
+                                                        for="customRadio1"
+                                                        >1 Carat</label
+                                                    >
+                                                </div>
+                                            </div>
+                                            <!-- /Col -->
+                                            <div
+                                                class="col-6 mb-3 text-center pl-1"
+                                            >
+                                                <div
+                                                    class="custom-control custom-radio"
+                                                >
+                                                    <input
+                                                        type="radio"
+                                                        id="customRadio2"
+                                                        name="customRadio"
+                                                        class="custom-control-input"
+                                                    />
+                                                    <label
+                                                        class="custom-control-label"
+                                                        onclick="selectCarat('2')"
+                                                        for="customRadio2"
+                                                        >2 Carat</label
+                                                    >
+                                                </div>
+                                            </div>
+                                            <!-- /Col -->
+                                            <div
+                                                class="col-6 mb-3 text-center pr-1"
+                                            >
+                                                <div
+                                                    class="custom-control custom-radio"
+                                                >
+                                                    <input
+                                                        type="radio"
+                                                        id="customRadio3"
+                                                        name="customRadio"
+                                                        class="custom-control-input"
+                                                    />
+                                                    <label
+                                                        class="custom-control-label"
+                                                        onclick="selectCarat('3')"
+                                                        for="customRadio3"
+                                                        >3 Carat</label
+                                                    >
+                                                </div>
+                                            </div>
+                                            <!-- /Col -->
+                                            <div
+                                                class="col-6 mb-3 text-center pl-1"
+                                            >
+                                                <div
+                                                    class="custom-control custom-radio"
+                                                >
+                                                    <input
+                                                        type="radio"
+                                                        id="customRadio4"
+                                                        name="customRadio"
+                                                        class="custom-control-input"
+                                                    />
+                                                    <label
+                                                        class="custom-control-label"
+                                                        onclick="selectCarat('4')"
+                                                        for="customRadio4"
+                                                        >4 Carat</label
+                                                    >
+                                                </div>
+                                            </div>
+                                            <!-- /Col -->
+                                            <div
+                                                class="col-6 mb-3 text-center pr-1"
+                                            >
+                                                <div
+                                                    class="custom-control custom-radio"
+                                                >
+                                                    <input
+                                                        type="radio"
+                                                        id="customRadio5"
+                                                        name="customRadio"
+                                                        class="custom-control-input"
+                                                    />
+                                                    <label
+                                                        class="custom-control-label"
+                                                        onclick="selectCarat('5')"
+                                                        for="customRadio5"
+                                                        >5 Carat</label
+                                                    >
+                                                </div>
+                                            </div>
+                                            <!-- /Col -->
+                                            <div
+                                                class="col-6 mb-3 text-center pl-1"
+                                            >
+                                                <div
+                                                    class="custom-control custom-radio"
+                                                >
+                                                    <input
+                                                        type="radio"
+                                                        id="customRadio6"
+                                                        name="customRadio"
+                                                        class="custom-control-input"
+                                                    />
+                                                    <label
+                                                        class="custom-control-label"
+                                                        onclick="selectCarat('6')"
+                                                        for="customRadio6"
+                                                        >6 Carat</label
+                                                    >
+                                                </div>
+                                            </div>
+                                            <!-- /Col -->
+                                            <div
+                                                class="col-6 mb-3 text-center pr-1"
+                                            >
+                                                <div
+                                                    class="custom-control custom-radio"
+                                                >
+                                                    <input
+                                                        type="radio"
+                                                        id="customRadio7"
+                                                        name="customRadio"
+                                                        class="custom-control-input"
+                                                    />
+                                                    <label
+                                                        class="custom-control-label"
+                                                        onclick="selectCarat('7')"
+                                                        for="customRadio7"
+                                                        >7 Carat</label
+                                                    >
+                                                </div>
+                                            </div>
+                                            <!-- /Col -->
+                                            <div
+                                                class="col-6 mb-3 text-center pl-1"
+                                            >
+                                                <div
+                                                    class="custom-control custom-radio"
+                                                >
+                                                    <input
+                                                        type="radio"
+                                                        id="customRadio8"
+                                                        name="customRadio"
+                                                        class="custom-control-input"
+                                                    />
+                                                    <label
+                                                        class="custom-control-label"
+                                                        onclick="selectCarat('8')"
+                                                        for="customRadio8"
+                                                        >8 Carat</label
+                                                    >
+                                                </div>
+                                            </div>
+                                            <!-- /Col -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wzd-nav">
+                                <div id="nav-controls">
+                                    <div class="row">
+                                        <div
+                                            class="col-sm-4 text-center text-sm-left mb-1"
+                                        >
+                                            <a
+                                                class="btn btn_back nav-next"
+                                                onclick="back_step1()"
+                                                href="#step1"
+                                                aria-controls="step1"
+                                                role="tab"
+                                                data-toggle="tab"
+                                                >Back</a
+                                            >
+                                        </div>
+                                        <div class="col-sm-4 text-center">
+                                            <a
+                                                class="btn btn_purple_red nav-next"
+                                                href="#step3"
+                                                aria-controls="step3"
+                                                role="tab"
+                                                data-toggle="tab"
+                                                >Continue</a
+                                            >
+                                        </div>
+                                        <div
+                                            class="col-sm-4 text-left d-none d-sm-block"
+                                        >
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Step content end-->
+                        </div>
+                        <!-- STEP 2 END-->
+
+                        <!-- STEP 3 OPEN -->
+                        <div role="tabpanel" class="tab-pane" id="step3">
+                            <div class="progress">
+                                <ul>
+                                    <li>
+                                        <a class="text-white" href="#!"
+                                            >Shape</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="text-white" href="#!">Size</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-white" href="#!"
+                                            >Options</a
+                                        >
+                                    </li>
+                                    <li><a class="" href="#!">Setting</a></li>
+                                </ul>
+                                <div
+                                    class="progress-bar3 d-block"
+                                    id="step3_back"
+                                    role="progressbar"
+                                    aria-valuenow="40"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                                ></div>
+                            </div>
+                            <!-- Step content -->
+                            <div
+                                class="wzd-content d-flex flex-column justify-content-center"
+                            >
+                                <div class="step_title step_title_3 fade_in">
+                                    Okay! What’s your preference?
+                                </div>
+                                <div
+                                    class="row d-flex justify-content-center align-items-center"
+                                >
+                                    <div
+                                        class="col-xl-3 col-lg-3 col-md-3 col-sm-6 mb-4 align-self-stretch"
+                                    >
+                                        <div
+                                            class="page_white_box px-3 px-lg-4 py-4 py-lg-5 h-100"
+                                            onclick="select_value('white_box_1')"
+                                            id="white_box_1"
+                                        >
+                                            <h5>Flawless</h5>
+                                            <p class="font12">
+                                                Perfect color. Perfect clarity.
+                                                Perfect cut. It’s Flawless
+                                            </p>
+                                            <h5>$1800-1200</h5>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col-xl-3 col-lg-3 col-md-3 col-sm-6 mb-4 align-self-stretch"
+                                    >
+                                        <div
+                                            class="page_white_box px-3 px-lg-4 py-4 py-lg-5 h-100"
+                                            onclick="select_value('white_box_2')"
+                                            id="white_box_2"
+                                        >
+                                            <h5>Top Selection</h5>
+                                            <p class="font12">
+                                                Choose this hand-picked
+                                                recommendation as selected by
+                                                our top jewelers.
+                                            </p>
+                                            <h5>$2000-3000</h5>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col-xl-3 col-lg-3 col-md-3 col-sm-6 mb-4 align-self-stretch"
+                                    >
+                                        <div
+                                            class="page_white_box active px-3 px-lg-4 py-4 py-lg-5 h-100"
+                                            onclick="select_value('white_box_3')"
+                                            id="white_box_3"
+                                        >
+                                            <h5>Best Value</h5>
+                                            <p class="font12">
+                                                High quality for a reasonable
+                                                price.
+                                            </p>
+                                            <h5>$2500-$3000</h5>
+                                        </div>
+                                    </div>
+                                    <div
+                                        class="col-xl-3 col-lg-3 col-md-3 col-sm-6 mb-4 align-self-stretch"
+                                    >
+                                        <div
+                                            class="page_white_box px-3 px-lg-4 py-4 py-lg-5 h-100"
+                                            onclick="select_value('white_box_4')"
+                                            id="white_box_4"
+                                        >
+                                            <h5>On a Budget</h5>
+                                            <p class="font12">
+                                                Affordability while maintaining
+                                                premium quality.
+                                            </p>
+                                            <h5>$3000-4000+</h5>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wzd-nav">
+                                <div id="nav-controls">
+                                    <div class="row">
+                                        <div
+                                            class="col-sm-4 text-center text-sm-left mb-1"
+                                        >
+                                            <a
+                                                class="btn btn_back nav-next"
+                                                onclick="back_step2()"
+                                                href="#step2"
+                                                aria-controls="step2"
+                                                role="tab"
+                                                data-toggle="tab"
+                                                >Back</a
+                                            >
+                                        </div>
+                                        <div class="col-sm-4 text-center">
+                                            <a
+                                                class="btn btn_red_orange nav-next"
+                                                href="#step4"
+                                                aria-controls="step4"
+                                                role="tab"
+                                                data-toggle="tab"
+                                                >Continue</a
+                                            >
+                                        </div>
+                                        <div
+                                            class="col-sm-4 text-left d-none d-sm-block"
+                                        >
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Step content end-->
+                        </div>
+                        <!-- STEP 3 END-->
+
+                        <!-- STEP 4 OPEN -->
+                        <div role="tabpanel" class="tab-pane" id="step4">
+                            <div class="progress">
+                                <ul>
+                                    <li>
+                                        <a class="text-white" href="#!"
+                                            >Shape</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="text-white" href="#!">Size</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-white" href="#!"
+                                            >Options</a
+                                        >
+                                    </li>
+                                    <li><a class="" href="#!">Setting</a></li>
+                                </ul>
+                                <div
+                                    class="progress-bar4 d-block"
+                                    id="step4_back"
+                                    role="progressbar"
+                                    aria-valuenow="40"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                                    style="width: 75%"
+                                ></div>
+                            </div>
+                            <!-- Step content -->
+                            <div
+                                class="wzd-content d-flex flex-column justify-content-center"
+                            >
+                                <div class="row d-flex justify-content-center">
+                                    <div
+                                        class="col-xl-3 col-lg-3 col-md-3 col-sm-6 mb-4 align-self-stretch text-center"
+                                    >
+                                        <div
+                                            class="page_white_box recommended_box active h-100 position-relative"
+                                        >
+                                            <div class="recommended">
+                                                Recommended
+                                            </div>
+                                            <p class="mb-5">
+                                                <img
+                                                    src="images/step_img2.png"
+                                                    class="img-fluid m-auto recommended_img cards_dimond"
+                                                />
+                                            </p>
+                                            <p>$3000</p>
+                                            <div class="row">
+                                                <div
+                                                    class="col-6 mb-2 text-center pr-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p
+                                                            class="mb-0 font10 recommended_carat"
+                                                        >
+                                                            1 Carat
+                                                        </p>
+                                                        <small
+                                                            class="d-block text_gray_six font8 ct_change"
+                                                            >1.25 ct</small
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="col-6 mb-2 text-center pl-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p class="mb-0 font10">
+                                                            Color
+                                                            <small
+                                                                class="d-block text_gray_six font8"
+                                                                >F</small
+                                                            >
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="col-6 mb-2 text-center pr-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p class="mb-0 font10">
+                                                            Cut
+                                                            <small
+                                                                class="d-block text_gray_six font8"
+                                                                >Brilliant
+                                                                cut</small
+                                                            >
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="col-6 mb-2 text-center pl-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p class="mb-0 font10">
+                                                            Clarity
+                                                            <small
+                                                                class="d-block text_gray_six font8"
+                                                                >VVS1</small
+                                                            >
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="mb-0 text-right">
+                                                <a
+                                                    href="#!"
+                                                    id="pover-info"
+                                                    data-toggle="popover"
+                                                    data-trigger="focus"
+                                                    data-placement="top"
+                                                    ><img
+                                                        src="images/info_yellow.svg"
+                                                        class="icon-26"
+                                                /></a>
+                                            </p>
+                                            <div
+                                                id="popover-info"
+                                                class="d-none"
+                                            >
+                                                The second popover content goes
+                                                here.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /col -->
+                                </div>
+                                <p class="mt-2 mb-0 text-center">
+                                    <a
+                                        class="btn btn_back font10"
+                                        href="#step5"
+                                        aria-controls="step5"
+                                        role="tab"
+                                        data-toggle="tab"
+                                        >View More Options</a
+                                    >
+                                </p>
+                            </div>
+                            <div class="wzd-nav">
+                                <div id="nav-controls">
+                                    <div class="row">
+                                        <div
+                                            class="col-sm-4 text-center text-sm-left mb-1"
+                                        >
+                                            <a
+                                                class="btn btn_back nav-next"
+                                                onclick="backToStep4()"
+                                                href="#step3"
+                                                aria-controls="step3"
+                                                role="tab"
+                                                data-toggle="tab"
+                                                >Back</a
+                                            >
+                                        </div>
+                                        <div class="col-sm-4 text-center">
+                                            <a
+                                                class="btn btn_red_orange nav-next"
+                                                href="#step6"
+                                                aria-controls="step6"
+                                                role="tab"
+                                                data-toggle="tab"
+                                                >Continue</a
+                                            >
+                                        </div>
+                                        <div
+                                            class="col-sm-4 text-left d-none d-sm-block"
+                                        >
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Step content end-->
+                        </div>
+                        <!-- STEP 4 END-->
+
+                        <!-- STEP 5 OPEN -->
+                        <div role="tabpanel" class="tab-pane" id="step5">
+                            <div class="progress">
+                                <ul>
+                                    <li>
+                                        <a class="text-white" href="#!"
+                                            >Shape</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="text-white" href="#!">Size</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-white" href="#!"
+                                            >Options</a
+                                        >
+                                    </li>
+                                    <li><a class="" href="#!">Setting</a></li>
+                                </ul>
+                                <div
+                                    class="progress-bar d-block"
+                                    role="progressbar"
+                                    aria-valuenow="40"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                                    style="width: 75%"
+                                ></div>
+                            </div>
+                            <!-- Step content -->
+                            <div
+                                class="wzd-content d-flex flex-column justify-content-center"
+                            >
+                                <div
+                                    class="row d-flex justify-content-center card_animation"
+                                >
+                                    <div
+                                        class="col-xl-3 col-lg-3 col-md-3 col-sm-6 mb-4 align-self-stretch text-center"
+                                    >
+                                        <div
+                                            class="page_white_box recommended_box active h-100 position-relative"
+                                        >
+                                            <div class="recommended">
+                                                Recommended
+                                            </div>
+                                            <p class="mb-5">
+                                                <img
+                                                    src="images/step_img2.png"
+                                                    class="img-fluid m-auto recommended_img cards_dimond"
+                                                />
+                                            </p>
+                                            <p>$3000</p>
+                                            <div class="row">
+                                                <div
+                                                    class="col-6 mb-2 text-center pr-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p
+                                                            class="mb-0 font10 recommended_carat"
+                                                        >
+                                                            1 Carat
+                                                        </p>
+                                                        <small
+                                                            class="d-block text_gray_six font8 ct_change"
+                                                            >1.25 ct</small
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="col-6 mb-2 text-center pl-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p class="mb-0 font10">
+                                                            Color
+                                                            <small
+                                                                class="d-block text_gray_six font8"
+                                                                >F</small
+                                                            >
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="col-6 mb-2 text-center pr-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p class="mb-0 font10">
+                                                            Cut
+                                                            <small
+                                                                class="d-block text_gray_six font8"
+                                                                >Brilliant
+                                                                cut</small
+                                                            >
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="col-6 mb-2 text-center pl-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p class="mb-0 font10">
+                                                            Clarity
+                                                            <small
+                                                                class="d-block text_gray_six font8"
+                                                                >VVS1</small
+                                                            >
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="mb-0 text-right">
+                                                <a
+                                                    href="#!"
+                                                    id="pover-info"
+                                                    data-toggle="popover"
+                                                    data-trigger="focus"
+                                                    data-placement="top"
+                                                    ><img
+                                                        src="images/info_yellow.svg"
+                                                        class="icon-26"
+                                                /></a>
+                                            </p>
+                                            <div
+                                                id="popover-info"
+                                                class="d-none"
+                                            >
+                                                The second popover content goes
+                                                here.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /col -->
+                                    <div
+                                        class="col-xl-3 col-lg-3 col-md-3 col-sm-6 mb-4 align-self-stretch text-center"
+                                    >
+                                        <div
+                                            class="page_white_box recommended_box h-100 position-relative"
+                                        >
+                                            <p class="mb-5">
+                                                <img
+                                                    src="images/step_img2.png"
+                                                    class="img-fluid m-auto recommended_img cards_dimond"
+                                                />
+                                            </p>
+                                            <p>$3000</p>
+                                            <div class="row">
+                                                <div
+                                                    class="col-6 mb-2 text-center pr-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p
+                                                            class="mb-0 font10 recommended_carat"
+                                                        >
+                                                            1 Carat
+                                                        </p>
+                                                        <small
+                                                            class="d-block text_gray_six font8 ct_change"
+                                                            >1.25 ct</small
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="col-6 mb-2 text-center pl-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p class="mb-0 font10">
+                                                            Color
+                                                            <small
+                                                                class="d-block text_gray_six font8"
+                                                                >F</small
+                                                            >
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="col-6 mb-2 text-center pr-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p class="mb-0 font10">
+                                                            Cut
+                                                            <small
+                                                                class="d-block text_gray_six font8"
+                                                                >Brilliant
+                                                                cut</small
+                                                            >
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="col-6 mb-2 text-center pl-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p class="mb-0 font10">
+                                                            Clarity
+                                                            <small
+                                                                class="d-block text_gray_six font8"
+                                                                >VVS1</small
+                                                            >
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="mb-0 text-right">
+                                                <a
+                                                    href="#!"
+                                                    id="pover-info"
+                                                    data-toggle="popover"
+                                                    data-trigger="focus"
+                                                    data-placement="top"
+                                                    ><img
+                                                        src="images/info_yellow.svg"
+                                                        class="icon-26"
+                                                /></a>
+                                            </p>
+                                            <div
+                                                id="popover-info"
+                                                class="d-none"
+                                            >
+                                                The second popover content goes
+                                                here.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /col -->
+                                    <div
+                                        class="col-xl-3 col-lg-3 col-md-3 col-sm-6 mb-4 align-self-stretch text-center"
+                                    >
+                                        <div
+                                            class="page_white_box recommended_box h-100 position-relative"
+                                        >
+                                            <p class="mb-5">
+                                                <img
+                                                    src="images/step_img2.png"
+                                                    class="img-fluid m-auto recommended_img cards_dimond"
+                                                />
+                                            </p>
+                                            <p>$3000</p>
+                                            <div class="row">
+                                                <div
+                                                    class="col-6 mb-2 text-center pr-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p
+                                                            class="mb-0 font10 recommended_carat"
+                                                        >
+                                                            1 Carat
+                                                        </p>
+                                                        <small
+                                                            class="d-block text_gray_six font8 ct_change"
+                                                            >1.25 ct</small
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="col-6 mb-2 text-center pl-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p class="mb-0 font10">
+                                                            Color
+                                                            <small
+                                                                class="d-block text_gray_six font8"
+                                                                >F</small
+                                                            >
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="col-6 mb-2 text-center pr-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p class="mb-0 font10">
+                                                            Cut
+                                                            <small
+                                                                class="d-block text_gray_six font8"
+                                                                >Brilliant
+                                                                cut</small
+                                                            >
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="col-6 mb-2 text-center pl-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p class="mb-0 font10">
+                                                            Clarity
+                                                            <small
+                                                                class="d-block text_gray_six font8"
+                                                                >VVS1</small
+                                                            >
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="mb-0 text-right">
+                                                <a
+                                                    href="#!"
+                                                    id="pover-info"
+                                                    data-toggle="popover"
+                                                    data-trigger="focus"
+                                                    data-placement="top"
+                                                    ><img
+                                                        src="images/info_yellow.svg"
+                                                        class="icon-26"
+                                                /></a>
+                                            </p>
+                                            <div
+                                                id="popover-info"
+                                                class="d-none"
+                                            >
+                                                The second popover content goes
+                                                here.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /col -->
+                                    <div
+                                        class="col-xl-3 col-lg-3 col-md-3 col-sm-6 mb-4 align-self-stretch text-center"
+                                    >
+                                        <div
+                                            class="page_white_box recommended_box h-100 position-relative"
+                                        >
+                                            <p class="mb-5">
+                                                <img
+                                                    src="images/step_img2.png"
+                                                    class="img-fluid m-auto recommended_img cards_dimond"
+                                                />
+                                            </p>
+                                            <p>$3000</p>
+                                            <div class="row">
+                                                <div
+                                                    class="col-6 mb-2 text-center pr-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p
+                                                            class="mb-0 font10 recommended_carat"
+                                                        >
+                                                            1 Carat
+                                                        </p>
+                                                        <small
+                                                            class="d-block text_gray_six font8 ct_change"
+                                                            >1.25 ct</small
+                                                        >
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="col-6 mb-2 text-center pl-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p class="mb-0 font10">
+                                                            Color
+                                                            <small
+                                                                class="d-block text_gray_six font8"
+                                                                >F</small
+                                                            >
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="col-6 mb-2 text-center pr-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p class="mb-0 font10">
+                                                            Cut
+                                                            <small
+                                                                class="d-block text_gray_six font8"
+                                                                >Brilliant
+                                                                cut</small
+                                                            >
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                                <div
+                                                    class="col-6 mb-2 text-center pl-1"
+                                                >
+                                                    <div class="small_box p-2">
+                                                        <p class="mb-0 font10">
+                                                            Clarity
+                                                            <small
+                                                                class="d-block text_gray_six font8"
+                                                                >VVS1</small
+                                                            >
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <p class="mb-0 text-right">
+                                                <a
+                                                    href="#!"
+                                                    id="pover-info"
+                                                    data-toggle="popover"
+                                                    data-trigger="focus"
+                                                    data-placement="top"
+                                                    ><img
+                                                        src="images/info_yellow.svg"
+                                                        class="icon-26"
+                                                /></a>
+                                            </p>
+                                            <div
+                                                id="popover-info"
+                                                class="d-none"
+                                            >
+                                                The second popover content goes
+                                                here.
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /col -->
+                                </div>
+                            </div>
+                            <div class="wzd-nav">
+                                <div id="nav-controls">
+                                    <div class="row">
+                                        <div
+                                            class="col-sm-4 text-center text-sm-left mb-1"
+                                        >
+                                            <a
+                                                class="btn btn_back nav-next"
+                                                href="#step4"
+                                                aria-controls="step4"
+                                                role="tab"
+                                                data-toggle="tab"
+                                                >Back</a
+                                            >
+                                        </div>
+                                        <div class="col-sm-4 text-center">
+                                            <a
+                                                class="btn btn_red_orange nav-next"
+                                                href="#step6"
+                                                aria-controls="step6"
+                                                role="tab"
+                                                data-toggle="tab"
+                                                >Continue</a
+                                            >
+                                        </div>
+                                        <div
+                                            class="col-sm-4 text-left d-none d-sm-block"
+                                        >
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Step content end-->
+                        </div>
+                        <!-- STEP 5 END-->
+
+                        <!-- STEP 6 OPEN -->
+                        <div role="tabpanel" class="tab-pane" id="step6">
+                            <div class="progress">
+                                <ul>
+                                    <li>
+                                        <a class="text-white" href="#!"
+                                            >Shape</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="text-white" href="#!">Size</a>
+                                    </li>
+                                    <li>
+                                        <a class="text-white" href="#!"
+                                            >Options</a
+                                        >
+                                    </li>
+                                    <li>
+                                        <a class="text-white" href="#!"
+                                            >Setting</a
+                                        >
+                                    </li>
+                                </ul>
+                                <div
+                                    class="progress-bar5 d-block"
+                                    role="progressbar"
+                                    aria-valuenow="40"
+                                    aria-valuemin="0"
+                                    aria-valuemax="100"
+                                ></div>
+                            </div>
+                            <!-- Step content -->
+                            <div
+                                class="wzd-content d-flex flex-column justify-content-center"
+                            >
+                                <div class="step_title step_title_4 fade_in">
+                                    We’re almost done.
+                                    <span class="d-block"
+                                        >Let’s put the final touches on your
+                                        ring.</span
+                                    >
+                                </div>
+
+                                <!-- Slider -->
+
+                                <div id="ringSlider" class="owl-carousel">
+                                    <div class="item text-center">
+                                        <img
+                                            src="images/slide2_1.jpg"
+                                            class="img-fluid m-auto"
+                                        />
+                                    </div>
+                                    <!-- /Items 1-->
+                                    <div class="item text-center">
+                                        <img
+                                            src="images/slide2_2.jpg"
+                                            class="img-fluid m-auto"
+                                        />
+                                    </div>
+                                    <!-- /Items 2 -->
+                                    <div class="item text-center">
+                                        <img
+                                            src="images/slide2_3.jpg"
+                                            class="img-fluid m-auto"
+                                        />
+                                    </div>
+                                    <!-- /Items 3-->
+                                    <div class="item text-center">
+                                        <img
+                                            src="images/slide2_1.jpg"
+                                            class="img-fluid m-auto"
+                                        />
+                                    </div>
+                                    <!-- /Items 4-->
+                                    <div class="item text-center">
+                                        <img
+                                            src="images/slide2_2.jpg"
+                                            class="img-fluid m-auto"
+                                        />
+                                    </div>
+                                    <!-- /Items 5-->
+                                    <div class="item text-center">
+                                        <img
+                                            src="images/slide2_3.jpg"
+                                            class="img-fluid m-auto"
+                                        />
+                                    </div>
+                                    <!-- /Items 6-->
+                                </div>
+                                <!-- /Slider -->
+                            </div>
+                            <div class="wzd-nav">
+                                <div id="nav-controls">
+                                    <div class="row">
+                                        <div
+                                            class="col-sm-4 text-center text-sm-left mb-1"
+                                        >
+                                            <a
+                                                class="btn btn_back nav-next"
+                                                onclick="backAnimation1()"
+                                                href="#step4"
+                                                aria-controls="step5"
+                                                role="tab"
+                                                data-toggle="tab"
+                                                >Back</a
+                                            >
+                                        </div>
+                                        <div class="col-sm-4 text-center">
+                                            <a
+                                                class="btn btn_orange_yello nav-next"
+                                                href="#step7"
+                                                aria-controls="step7"
+                                                role="tab"
+                                                data-toggle="tab"
+                                                >Continue</a
+                                            >
+                                        </div>
+                                        <div
+                                            class="col-sm-4 text-left d-none d-sm-block"
+                                        >
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Step content end-->
+                        </div>
+                        <!-- STEP 6 END-->
+                        <!-- STEP 7 OPEN -->
+                        <div role="tabpanel" class="tab-pane" id="step7">
+                            <!-- Step content -->
+                            <div
+                                class="wzd-content d-flex flex-column justify-content-center"
+                            >
+                                <p
+                                    class="text-center transform"
+                                    id="3dimage"
+                                    onmouseover="rotation()"
+                                >
+                                    <img
+                                        src="images/3dring.png"
+                                        class="img-fluid d_ring"
+                                    />
+                                </p>
+                                <p class="mt-4 text-center">
+                                    <a class="btn btn_back font10" href="#!"
+                                        >Share with a friend</a
+                                    >
+                                </p>
+                            </div>
+                            <div class="wzd-nav">
+                                <div id="nav-controls">
+                                    <div class="row">
+                                        <div
+                                            class="col-sm-4 text-center text-sm-left mb-1"
+                                        >
+                                            <a
+                                                class="btn btn_back nav-next"
+                                                href="#step6"
+                                                aria-controls="step6"
+                                                role="tab"
+                                                data-toggle="tab"
+                                                >Back</a
+                                            >
+                                        </div>
+                                        <div class="col-sm-4 text-center">
+                                            <a
+                                                class="btn btn_buynow nav-next"
+                                                href="#step7"
+                                                aria-controls="step7"
+                                                role="tab"
+                                                data-toggle="tab"
+                                                >Buy Now</a
+                                            >
+                                        </div>
+                                        <div
+                                            class="col-sm-4 text-left d-none d-sm-block"
+                                        >
+                                            &nbsp;
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Step content end-->
+                        </div>
+                        <!-- STEP 7 END-->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Scripts -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/jquery.easing.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/steps.js"></script>
+    </body>
+</html>
