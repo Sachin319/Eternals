@@ -41,6 +41,46 @@ const selectCarat = (carat) => {
     document.getElementsByClassName("ct_change")[i].innerHTML =
       carat * 1.25 + " ct";
   }
+  let price1 = document.getElementsByClassName("price")[0].innerHTML;
+  let price2 = document.getElementsByClassName("price")[1].innerHTML;
+  let price3 = document.getElementsByClassName("price")[2].innerHTML;
+  let price4 = document.getElementsByClassName("price")[3].innerHTML;
+  let price5 = document.getElementsByClassName("price")[4].innerHTML;
+  let price6 = document.getElementsByClassName("price")[5].innerHTML;
+  let price7 = document.getElementsByClassName("price")[6].innerHTML;
+  let price8 = document.getElementsByClassName("price")[7].innerHTML;
+  let price9 = document.getElementsByClassName("price")[8].innerHTML;
+  let price10 = document.getElementsByClassName("price")[9].innerHTML;
+  let price11 = document.getElementsByClassName("price")[10].innerHTML;
+  let price12 = document.getElementsByClassName("price")[11].innerHTML;
+  let price13 = document.getElementsByClassName("price")[12].innerHTML;
+  price1 = parseInt(price1) * carat;
+  price2 = parseInt(price2) * carat;
+  price3 = parseInt(price3) * carat;
+  price4 = parseInt(price4) * carat;
+  price5 = parseInt(price5) * carat;
+  price6 = parseInt(price6) * carat;
+  price7 = parseInt(price7) * carat;
+  price8 = parseInt(price8) * carat;
+  price9 = parseInt(price9) * carat;
+  price10 = parseInt(price10) * carat;
+  price11 = parseInt(price11) * carat;
+  price12 = parseInt(price12) * carat;
+  price13 = parseInt(price13) * carat;
+
+  document.getElementsByClassName("price")[0].innerHTML = price1;
+  document.getElementsByClassName("price")[1].innerHTML = price2;
+  document.getElementsByClassName("price")[2].innerHTML = price3;
+  document.getElementsByClassName("price")[3].innerHTML = price4;
+  document.getElementsByClassName("price")[4].innerHTML = price5;
+  document.getElementsByClassName("price")[5].innerHTML = price6;
+  document.getElementsByClassName("price")[6].innerHTML = price7;
+  document.getElementsByClassName("price")[7].innerHTML = price8;
+  document.getElementsByClassName("price")[8].innerHTML = price9;
+  document.getElementsByClassName("price")[9].innerHTML = price10;
+  document.getElementsByClassName("price")[10].innerHTML = price11;
+  document.getElementsByClassName("price")[11].innerHTML = price12;
+  document.getElementsByClassName("price")[12].innerHTML = price13;
 };
 
 const select_value = (id) => {
@@ -82,3 +122,43 @@ for (let i = 0; i < prev_count; i++) {
   document.getElementsByClassName("owl-prev")[i].innerHTML = "";
   document.getElementsByClassName("owl-next")[i].innerHTML = "";
 }
+
+const selectDiamond = (id) => {
+  if (
+    document
+      .getElementsByClassName("recommended_box")[1]
+      .classList.contains("active")
+  ) {
+    document
+      .getElementsByClassName("recommended_box")[1]
+      .classList.remove("active");
+    document.getElementById(id).classList.add("active");
+  } else if (
+    document
+      .getElementsByClassName("recommended_box")[2]
+      .classList.contains("active")
+  ) {
+    document
+      .getElementsByClassName("recommended_box")[2]
+      .classList.remove("active");
+    document.getElementById(id).classList.add("active");
+  } else if (
+    document
+      .getElementsByClassName("recommended_box")[3]
+      .classList.contains("active")
+  ) {
+    document
+      .getElementsByClassName("recommended_box")[3]
+      .classList.remove("active");
+    document.getElementById(id).classList.add("active");
+  } else if (
+    document
+      .getElementsByClassName("recommended_box")[4]
+      .classList.contains("active")
+  ) {
+    document
+      .getElementsByClassName("recommended_box")[4]
+      .classList.remove("active");
+    document.getElementById(id).classList.add("active");
+  }
+};
