@@ -3126,3 +3126,6 @@ footer .social_list li a:hover {
     transform: none;
   }
 }
+.page_white_box {
+  overflow: clip;
+}
